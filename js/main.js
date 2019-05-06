@@ -14,5 +14,5 @@ btn.onclick = function (num1, num2, num3, num4, num5) {
 
   realMargine = num1 - ((num2 - num3) / 2) - ((num4 - num5) / 2);
 
-  alert(`Ваш реальний відступ мід текстом дорівнює: ${Math.round(realMargine)}!!!`);
+  alert(`Ваш реальний відступ між текстом дорівнює: ${Math.round(realMargine)}!!!`);
 };
